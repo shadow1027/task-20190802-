@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "437df8f9-0002-40ed-9756-ac5ef848253d",
+		"name": "table-tdy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "192.168.50.187:5000/api/attendance/edit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "key",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "hwx",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "192.168.50.187:5000/api/attendance/edit",
+					"host": [
+						"192",
+						"168",
+						"50",
+						"187"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"attendance",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "192.168.50.187:5000/api/attendance/delete/45",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "192.168.50.187:5000/api/attendance/delete/10",
+					"host": [
+						"192",
+						"168",
+						"50",
+						"187"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"attendance",
+						"delete",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "192.168.50.187:5000/api/attendance/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "key",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "192.168.50.187:5000/api/attendance/getAllData?offset=0&limit=30",
+					"host": [
+						"192",
+						"168",
+						"50",
+						"187"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"attendance",
+						"getAllData"
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "192.168.50.187:5000/api/attendance/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "tdy@163.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "tdy",
+							"type": "text"
+						},
+						{
+							"key": "days",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "starting",
+							"value": "2019",
+							"type": "text"
+						},
+						{
+							"key": "ending",
+							"value": "2019",
+							"type": "text"
+						},
+						{
+							"key": "handle",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2019-05-18",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "192.168.50.187:5000/api/attendance/add",
+					"host": [
+						"192",
+						"168",
+						"50",
+						"187"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"attendance",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
