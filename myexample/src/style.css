@@ -1,0 +1,26 @@
+li {
+  list-style: none;
+}
+.container {
+  padding: 20px;
+}
+.questions {
+  border-bottom: 1px solid #ccc;
+}
+.list-item {
+  margin: 16px 0;
+}
+.list-item-title {
+  margin-bottom: 6px;
+}
+.btn-wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.submit-btn {
+  width: 200px;
+}
+.reuslt-wrapper {
+  margin-top: 20px;
+}
